@@ -1,0 +1,17 @@
+# question1
+sed 's/Huck/HucK/' twain.txt > twain1.txt
+sed -n '1,10p' twain.txt
+sed -n '1,10p' twain1.txt
+# question2
+# q2a
+python3 userargument.py python
+# q2b
+python3 userargument.py @!&^%
+# q2c
+python3 userargument.py 1234
+# q2d
+python3 userargument.py Bob
+# q2e
+userargument.py Bob
+# q2f
+python3 userargument.py Alice Bob
